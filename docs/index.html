@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DustCFMIndex — Woodshop Dust Collector CFM, Duct Velocity & Static Pressure Calculator (2026)</title>
+  <meta name="description" content="Calculate exact woodshop dust collector working CFM at 4,000 FPM duct velocity, static pressure loss (in. WG), and 1-micron canister filter sizing for SawStop, DeWalt, Jet, Laguna, Grizzly, and Oneida setups.">
+  <link rel="canonical" href="https://hanifsalman11.github.io/dust-collector-index/">
+  <link rel="alternate" type="application/rss+xml" title="DustCFMIndex RSS Feed" href="https://hanifsalman11.github.io/dust-collector-index/rss.xml">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-zinc-950 text-zinc-100 min-h-screen flex flex-col">
+  <header class="border-b border-zinc-800 bg-zinc-900/80 sticky top-0 z-30 backdrop-blur">
+    <div class="max-w-5xl mx-auto px-4 py-3.5 flex items-center justify-between">
+      <div class="text-lg font-black text-white flex items-center gap-2">
+        <span class="bg-amber-500 text-zinc-950 px-2 py-0.5 rounded font-black">DUST</span>CFMIndex
+      </div>
+      <a href="https://www.amazon.com/s?k=Woodworking%2BCyclone%2BDust%2BCollector%2B1%2BMicron%2BCanister%2BFilter%2BJet%2BGrizzly&tag=salmanrevie04-20" target="_blank" rel="nofollow sponsored" class="text-xs sm:text-sm bg-amber-500 hover:bg-amber-400 text-zinc-950 font-extrabold px-3.5 py-2 rounded-lg transition">
+        Shop Dust Collectors & Cyclone Kits on Amazon →
+      </a>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-12 flex-1 w-full">
+    <div class="text-center max-w-2xl mx-auto mb-10">
+      <h1 class="text-3xl sm:text-5xl font-black text-white tracking-tight">Woodshop Dust Collector CFM, Duct FPM & Static Pressure Database</h1>
+      <p class="text-zinc-400 mt-3 text-base sm:text-lg">Select your woodworking machine or dust collector model below to calculate 4,000 FPM working CFM, flex-hose static pressure loss (in. WG), and 1-micron canister filter requirements.</p>
+      <div class="mt-6">
+        <input id="filterInput" type="text" placeholder="Search machine or collector (e.g. SawStop, DeWalt DW735, Jet DC-1100VX, Laguna C|Flux, Oneida, 6-Inch Duct...)" class="w-full bg-zinc-900 border border-zinc-700 rounded-xl px-4 py-3.5 text-sm text-white focus:outline-none focus:border-amber-500">
+      </div>
+    </div>
+
+    <div id="dustGrid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <a href="jet-jdc-15-15-hp-cyclone-dust-collector-cfm-static-pressure-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-zinc-950 px-2.5 py-0.5 rounded">6.0" Duct | 790 CFM</span>
+            <span class="text-xs text-zinc-400">1.5 HP | 6.2" WG</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">Jet JDC-1.5 (1.5 HP) Cyclone Dust Collector</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (6.2" WG) for Jet JDC-1.5 (1.5 HP) Cyclone Dust Collector.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate CFM, FPM & Static Loss →</span>
+        </a>
+        <a href="dewalt-dw735x-13-inch-thickness-planer-chip-ejection-cfm-static-pressure-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-zinc-950 px-2.5 py-0.5 rounded">4.0" Duct | 350 CFM</span>
+            <span class="text-xs text-zinc-400">1.5 HP | 4.9" WG</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">DeWalt DW735X 13-Inch Thickness Planer Chip Ejection</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (4.9" WG) for DeWalt DW735X 13-Inch Thickness Planer Chip Ejection.</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate CFM, FPM & Static Loss →</span>
+        </a>
+        <a href="sawstop-pcs-10-inch-cabinet-table-saw-4-overarm-cfm-static-pressure-calculator.html" class="block bg-zinc-900 border border-zinc-800 hover:border-amber-500/60 rounded-xl p-5 transition group">
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-xs font-black uppercase bg-amber-500 text-zinc-950 px-2.5 py-0.5 rounded">5.0" Duct | 550 CFM</span>
+            <span class="text-xs text-zinc-400">2.0 HP | 5.8" WG</span>
+          </div>
+          <h2 class="text-base font-bold text-white group-hover:text-amber-400 transition">SawStop PCS 10-Inch Cabinet Table Saw (4" + Overarm)</h2>
+          <p class="text-xs text-zinc-400 mt-2 line-clamp-2">Calculate exact dust collection airflow (550 net CFM / 910 blower CFM), 5.0" duct velocity (4000 FPM), and static pressure loss (5.8" WG) for SawStop PCS 10-Inch Cabinet Table Saw (4" + Overarm).</p>
+          <span class="inline-block mt-4 text-xs font-extrabold text-amber-400">Calculate CFM, FPM & Static Loss →</span>
+        </a></div>
+  </main>
+
+  <footer class="border-t border-zinc-800 py-8 text-center text-xs text-zinc-500">
+    <p>© 2026 DustCFMIndex. As an Amazon Associate, we earn from qualifying purchases.</p>
+  </footer>
+
+  <script>
+    const filterInput = document.getElementById('filterInput');
+    const cards = Array.from(document.getElementById('dustGrid').children);
+    filterInput.addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      cards.forEach(c => {
+        c.style.display = c.textContent.toLowerCase().includes(q) ? 'block' : 'none';
+      });
+    });
+  </script>
+</body>
+</html>
