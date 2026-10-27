@@ -64,5 +64,38 @@
     "hp": 3.0,
     "sp_wg": 8.5,
     "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Grizzly G0860 1.5 HP Portable Cyclone Dust Collector",
+    "slug": "grizzly-g0860-15-hp-portable-cyclone-dust-collector-cfm-static-pressure-calculator",
+    "title": "Grizzly G0860 1.5 HP Portable Cyclone Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (6.1\" WG) for Grizzly G0860 1.5 HP Portable Cyclone Dust Collector.",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 1.5,
+    "sp_wg": 6.1,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Grizzly G0710 / G0861 2 HP Wall-Mount Cyclone Collector",
+    "slug": "grizzly-g0710-g0861-2-hp-wall-mount-cyclone-collector-cfm-static-pressure-calculator",
+    "title": "Grizzly G0710 / G0861 2 HP Wall-Mount Cyclone Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (7.2\" WG) for Grizzly G0710 / G0861 2 HP Wall-Mount Cyclone Collector.",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 2.0,
+    "sp_wg": 7.2,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Oneida Air Systems Supercell High-Pressure Collector",
+    "slug": "oneida-air-systems-supercell-high-pressure-collector-cfm-static-pressure-calculator",
+    "title": "Oneida Air Systems Supercell High-Pressure Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (390 net CFM / 640 blower CFM), 4.0\" duct velocity (4500 FPM), and static pressure loss (12.5\" WG) for Oneida Air Systems Supercell High-Pressure Collector.",
+    "duct_in": 4.0,
+    "net_cfm": 390,
+    "hp": 2.5,
+    "sp_wg": 12.5,
+    "date": "2026-10-27"
   }
 ]
