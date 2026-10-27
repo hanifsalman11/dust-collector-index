@@ -31,5 +31,38 @@
     "hp": 1.5,
     "sp_wg": 6.2,
     "date": "2026-10-26"
+  },
+  {
+    "collector_name": "Jet DC-1100VX-CK (1.5 HP) Vortex Cone Canister Collector",
+    "slug": "jet-dc-1100vx-ck-15-hp-vortex-cone-canister-collector-cfm-static-pressure-calculator",
+    "title": "Jet DC-1100VX-CK (1.5 HP) Vortex Cone Canister Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (5.5\" WG) for Jet DC-1100VX-CK (1.5 HP) Vortex Cone Canister Collector.",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 1.5,
+    "sp_wg": 5.5,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Laguna B|Flux 1HP & C|Flux 1.5HP Cyclone Collector",
+    "slug": "laguna-bflux-1hp-cflux-15hp-cyclone-collector-cfm-static-pressure-calculator",
+    "title": "Laguna B|Flux 1HP & C|Flux 1.5HP Cyclone Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (6.0\" WG) for Laguna B|Flux 1HP & C|Flux 1.5HP Cyclone Collector.",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 1.5,
+    "sp_wg": 6.0,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Laguna P|Flux 3HP HEPA Cyclone Cabinet Shop Collector",
+    "slug": "laguna-pflux-3hp-hepa-cyclone-cabinet-shop-collector-cfm-static-pressure-calculator",
+    "title": "Laguna P|Flux 3HP HEPA Cyclone Cabinet Shop Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (1400 net CFM / 2310 blower CFM), 8.0\" duct velocity (4000 FPM), and static pressure loss (8.5\" WG) for Laguna P|Flux 3HP HEPA Cyclone Cabinet Shop Collector.",
+    "duct_in": 8.0,
+    "net_cfm": 1400,
+    "hp": 3.0,
+    "sp_wg": 8.5,
+    "date": "2026-10-27"
   }
 ]
