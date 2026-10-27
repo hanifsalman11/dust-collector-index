@@ -97,5 +97,38 @@
     "hp": 2.5,
     "sp_wg": 12.5,
     "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Oneida Dust Deputy 2.5 & Deluxe Cyclone Separator",
+    "slug": "oneida-dust-deputy-25-deluxe-cyclone-separator-cfm-static-pressure-calculator",
+    "title": "Oneida Dust Deputy 2.5 & Deluxe Cyclone Separator CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (140 net CFM / 230 blower CFM), 2.5\" duct velocity (4200 FPM), and static pressure loss (3.8\" WG) for Oneida Dust Deputy 2.5 & Deluxe Cyclone Separator.",
+    "duct_in": 2.5,
+    "net_cfm": 140,
+    "hp": 1.0,
+    "sp_wg": 3.8,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Powermatic PM1300TX-CK (1.75 HP) TurboCone Canister",
+    "slug": "powermatic-pm1300tx-ck-175-hp-turbocone-canister-cfm-static-pressure-calculator",
+    "title": "Powermatic PM1300TX-CK (1.75 HP) TurboCone Canister CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (5.9\" WG) for Powermatic PM1300TX-CK (1.75 HP) TurboCone Canister.",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 1.75,
+    "sp_wg": 5.9,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "Rikon 10-326 14-Inch Deluxe Bandsaw Dual-Port Setup",
+    "slug": "rikon-10-326-14-inch-deluxe-bandsaw-dual-port-setup-cfm-static-pressure-calculator",
+    "title": "Rikon 10-326 14-Inch Deluxe Bandsaw Dual-Port Setup CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Rikon 10-326 14-Inch Deluxe Bandsaw Dual-Port Setup.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-27"
   }
 ]
