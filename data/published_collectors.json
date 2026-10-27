@@ -130,5 +130,38 @@
     "hp": 1.5,
     "sp_wg": 5.2,
     "date": "2026-10-27"
+  },
+  {
+    "collector_name": "SuperMax 19-38 & 16-32 Open-End Drum Sander",
+    "slug": "supermax-19-38-16-32-open-end-drum-sander-cfm-static-pressure-calculator",
+    "title": "SuperMax 19-38 & 16-32 Open-End Drum Sander CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (390 net CFM / 640 blower CFM), 4.0\" duct velocity (4500 FPM), and static pressure loss (6.4\" WG) for SuperMax 19-38 & 16-32 Open-End Drum Sander.",
+    "duct_in": 4.0,
+    "net_cfm": 390,
+    "hp": 2.0,
+    "sp_wg": 6.4,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "8-Inch Helical-Head Jointer Heavy Chip Extraction",
+    "slug": "8-inch-helical-head-jointer-heavy-chip-extraction-cfm-static-pressure-calculator",
+    "title": "8-Inch Helical-Head Jointer Heavy Chip Extraction CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.0\" WG) for 8-Inch Helical-Head Jointer Heavy Chip Extraction.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.0,
+    "date": "2026-10-27"
+  },
+  {
+    "collector_name": "15-Inch Helical-Head Floor Planer (6-Inch Port)",
+    "slug": "15-inch-helical-head-floor-planer-6-inch-port-cfm-static-pressure-calculator",
+    "title": "15-Inch Helical-Head Floor Planer (6-Inch Port) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (6.8\" WG) for 15-Inch Helical-Head Floor Planer (6-Inch Port).",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 2.5,
+    "sp_wg": 6.8,
+    "date": "2026-10-27"
   }
 ]
