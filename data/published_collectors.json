@@ -196,5 +196,38 @@
     "hp": 1.5,
     "sp_wg": 4.8,
     "date": "2026-10-28"
+  },
+  {
+    "collector_name": "WEN DC1300 (1,300 CFM) & 3410 Ambient Air Cleaner",
+    "slug": "wen-dc1300-1300-cfm-3410-ambient-air-cleaner-cfm-static-pressure-calculator",
+    "title": "WEN DC1300 (1,300 CFM) & 3410 Ambient Air Cleaner CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (750 net CFM / 1240 blower CFM), 6.0\" duct velocity (3800 FPM), and static pressure loss (4.9\" WG) for WEN DC1300 (1,300 CFM) & 3410 Ambient Air Cleaner.",
+    "duct_in": 6.0,
+    "net_cfm": 750,
+    "hp": 1.5,
+    "sp_wg": 4.9,
+    "date": "2026-10-28"
+  },
+  {
+    "collector_name": "Shop Fox W1666 2 HP 1,550 CFM Dust Collector",
+    "slug": "shop-fox-w1666-2-hp-1550-cfm-dust-collector-cfm-static-pressure-calculator",
+    "title": "Shop Fox W1666 2 HP 1,550 CFM Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (6.2\" WG) for Shop Fox W1666 2 HP 1,550 CFM Dust Collector.",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 2.0,
+    "sp_wg": 6.2,
+    "date": "2026-10-28"
+  },
+  {
+    "collector_name": "Harvey G700 Gyro Air 2 HP Axial Centrifuge Collector",
+    "slug": "harvey-g700-gyro-air-2-hp-axial-centrifuge-collector-cfm-static-pressure-calculator",
+    "title": "Harvey G700 Gyro Air 2 HP Axial Centrifuge Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (820 net CFM / 1350 blower CFM), 6.0\" duct velocity (4200 FPM), and static pressure loss (7.8\" WG) for Harvey G700 Gyro Air 2 HP Axial Centrifuge Collector.",
+    "duct_in": 6.0,
+    "net_cfm": 820,
+    "hp": 2.0,
+    "sp_wg": 7.8,
+    "date": "2026-10-28"
   }
 ]
