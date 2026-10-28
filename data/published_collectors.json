@@ -163,5 +163,38 @@
     "hp": 2.5,
     "sp_wg": 6.8,
     "date": "2026-10-27"
+  },
+  {
+    "collector_name": "3HP Spindle Shaper & Router Table Dual-Port Extraction",
+    "slug": "3hp-spindle-shaper-router-table-dual-port-extraction-cfm-static-pressure-calculator",
+    "title": "3HP Spindle Shaper & Router Table Dual-Port Extraction CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (550 net CFM / 910 blower CFM), 5.0\" duct velocity (4000 FPM), and static pressure loss (5.6\" WG) for 3HP Spindle Shaper & Router Table Dual-Port Extraction.",
+    "duct_in": 5.0,
+    "net_cfm": 550,
+    "hp": 2.0,
+    "sp_wg": 5.6,
+    "date": "2026-10-28"
+  },
+  {
+    "collector_name": "4x4 & 4x8 CNC Router Table Dust Boot (4-Inch Hose)",
+    "slug": "4x4-4x8-cnc-router-table-dust-boot-4-inch-hose-cfm-static-pressure-calculator",
+    "title": "4x4 & 4x8 CNC Router Table Dust Boot (4-Inch Hose) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (370 net CFM / 610 blower CFM), 4.0\" duct velocity (4200 FPM), and static pressure loss (5.4\" WG) for 4x4 & 4x8 CNC Router Table Dust Boot (4-Inch Hose).",
+    "duct_in": 4.0,
+    "net_cfm": 370,
+    "hp": 1.5,
+    "sp_wg": 5.4,
+    "date": "2026-10-28"
+  },
+  {
+    "collector_name": "12-Inch Sliding Compound Miter Saw Dust Hood",
+    "slug": "12-inch-sliding-compound-miter-saw-dust-hood-cfm-static-pressure-calculator",
+    "title": "12-Inch Sliding Compound Miter Saw Dust Hood CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (330 net CFM / 540 blower CFM), 4.0\" duct velocity (3800 FPM), and static pressure loss (4.8\" WG) for 12-Inch Sliding Compound Miter Saw Dust Hood.",
+    "duct_in": 4.0,
+    "net_cfm": 330,
+    "hp": 1.5,
+    "sp_wg": 4.8,
+    "date": "2026-10-28"
   }
 ]
