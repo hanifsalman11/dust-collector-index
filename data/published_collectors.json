@@ -229,5 +229,38 @@
     "hp": 2.0,
     "sp_wg": 7.8,
     "date": "2026-10-28"
+  },
+  {
+    "collector_name": "Rockler Dust Right 650 CFM & 1250 CFM Wall-Mount",
+    "slug": "rockler-dust-right-650-cfm-1250-cfm-wall-mount-cfm-static-pressure-calculator",
+    "title": "Rockler Dust Right 650 CFM & 1250 CFM Wall-Mount CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.1\" WG) for Rockler Dust Right 650 CFM & 1250 CFM Wall-Mount.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.1,
+    "date": "2026-10-28"
+  },
+  {
+    "collector_name": "6-Inch PVC Main Trunk Line (2-Car Garage Woodshop)",
+    "slug": "6-inch-pvc-main-trunk-line-2-car-garage-woodshop-cfm-static-pressure-calculator",
+    "title": "6-Inch PVC Main Trunk Line (2-Car Garage Woodshop) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (6.8\" WG) for 6-Inch PVC Main Trunk Line (2-Car Garage Woodshop).",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 2.0,
+    "sp_wg": 6.8,
+    "date": "2026-10-28"
+  },
+  {
+    "collector_name": "5-Inch Spiral Metal Ducting Small Shop Main Line",
+    "slug": "5-inch-spiral-metal-ducting-small-shop-main-line-cfm-static-pressure-calculator",
+    "title": "5-Inch Spiral Metal Ducting Small Shop Main Line CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (550 net CFM / 910 blower CFM), 5.0\" duct velocity (4000 FPM), and static pressure loss (5.9\" WG) for 5-Inch Spiral Metal Ducting Small Shop Main Line.",
+    "duct_in": 5.0,
+    "net_cfm": 550,
+    "hp": 1.75,
+    "sp_wg": 5.9,
+    "date": "2026-10-28"
   }
 ]
