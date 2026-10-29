@@ -295,5 +295,38 @@
     "hp": 2.0,
     "sp_wg": 6.0,
     "date": "2026-10-29"
+  },
+  {
+    "collector_name": "Clear Vue Cyclones CV1800 (5 HP) Bill Pentz Spec",
+    "slug": "clear-vue-cyclones-cv1800-5-hp-bill-pentz-spec-cfm-static-pressure-calculator",
+    "title": "Clear Vue Cyclones CV1800 (5 HP) Bill Pentz Spec CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (820 net CFM / 1350 blower CFM), 6.0\" duct velocity (4200 FPM), and static pressure loss (8.8\" WG) for Clear Vue Cyclones CV1800 (5 HP) Bill Pentz Spec.",
+    "duct_in": 6.0,
+    "net_cfm": 820,
+    "hp": 3.0,
+    "sp_wg": 8.8,
+    "date": "2026-10-29"
+  },
+  {
+    "collector_name": "Festool CT 36 E & Fein Turbo I HEPA Extractor",
+    "slug": "festool-ct-36-e-fein-turbo-i-hepa-extractor-cfm-static-pressure-calculator",
+    "title": "Festool CT 36 E & Fein Turbo I HEPA Extractor CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (150 net CFM / 250 blower CFM), 2.5\" duct velocity (4500 FPM), and static pressure loss (4.2\" WG) for Festool CT 36 E & Fein Turbo I HEPA Extractor.",
+    "duct_in": 2.5,
+    "net_cfm": 150,
+    "hp": 1.2,
+    "sp_wg": 4.2,
+    "date": "2026-10-29"
+  },
+  {
+    "collector_name": "1,000 CFM Ceiling Air Filtration System (20x24 Garage)",
+    "slug": "1000-cfm-ceiling-air-filtration-system-20x24-garage-cfm-static-pressure-calculator",
+    "title": "1,000 CFM Ceiling Air Filtration System (20x24 Garage) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0\" duct velocity (4000 FPM), and static pressure loss (5.0\" WG) for 1,000 CFM Ceiling Air Filtration System (20x24 Garage).",
+    "duct_in": 6.0,
+    "net_cfm": 790,
+    "hp": 1.5,
+    "sp_wg": 5.0,
+    "date": "2026-10-29"
   }
 ]
