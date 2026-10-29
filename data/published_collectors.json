@@ -328,5 +328,38 @@
     "hp": 1.5,
     "sp_wg": 5.0,
     "date": "2026-10-29"
+  },
+  {
+    "collector_name": "Dust Collector",
+    "slug": "dust-collector-cfm-static-pressure-calculator",
+    "title": "Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Dust Collector.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-29"
+  },
+  {
+    "collector_name": "Fan  Calculation Formula",
+    "slug": "fan-calculation-formula-cfm-static-pressure-calculator",
+    "title": "Fan  Calculation Formula CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Fan  Calculation Formula.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-29"
+  },
+  {
+    "collector_name": "Can A Dust Collector Be Used As A Vacuum",
+    "slug": "can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator",
+    "title": "Can A Dust Collector Be Used As A Vacuum CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Can A Dust Collector Be Used As A Vacuum.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-29"
   }
 ]

@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/dust-collector-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Can A Dust Collector Be Used As A Vacuum CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Can A Dust Collector Be Used As A Vacuum.</description>
+    </item>
+    <item>
+      <title>Fan  Calculation Formula CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/fan-calculation-formula-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/fan-calculation-formula-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Fan  Calculation Formula.</description>
+    </item>
+    <item>
+      <title>Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/dust-collector-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/dust-collector-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Dust Collector.</description>
+    </item>
+    <item>
       <title>1,000 CFM Ceiling Air Filtration System (20x24 Garage) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/dust-collector-index/1000-cfm-ceiling-air-filtration-system-20x24-garage-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/1000-cfm-ceiling-air-filtration-system-20x24-garage-cfm-static-pressure-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/dust-collector-index/jet-dc-1100vx-ck-15-hp-vortex-cone-canister-collector-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dc-1100vx-ck-15-hp-vortex-cone-canister-collector-cfm-static-pressure-calculator.html</guid>
       <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (5.5" WG) for Jet DC-1100VX-CK (1.5 HP) Vortex Cone Canister Collector.</description>
-    </item>
-    <item>
-      <title>Jet JDC-1.5 (1.5 HP) Cyclone Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/jet-jdc-15-15-hp-cyclone-dust-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-jdc-15-15-hp-cyclone-dust-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (6.2" WG) for Jet JDC-1.5 (1.5 HP) Cyclone Dust Collector.</description>
-    </item>
-    <item>
-      <title>DeWalt DW735X 13-Inch Thickness Planer Chip Ejection CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/dewalt-dw735x-13-inch-thickness-planer-chip-ejection-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/dewalt-dw735x-13-inch-thickness-planer-chip-ejection-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (4.9" WG) for DeWalt DW735X 13-Inch Thickness Planer Chip Ejection.</description>
-    </item>
-    <item>
-      <title>SawStop PCS 10-Inch Cabinet Table Saw (4" + Overarm) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/sawstop-pcs-10-inch-cabinet-table-saw-4-overarm-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/sawstop-pcs-10-inch-cabinet-table-saw-4-overarm-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (550 net CFM / 910 blower CFM), 5.0" duct velocity (4000 FPM), and static pressure loss (5.8" WG) for SawStop PCS 10-Inch Cabinet Table Saw (4" + Overarm).</description>
     </item>
   </channel>
 </rss>
