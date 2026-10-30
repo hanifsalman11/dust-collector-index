@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/dust-collector-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>What  Dust Collector Do I Need CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/what-dust-collector-do-i-need-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/what-dust-collector-do-i-need-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for What  Dust Collector Do I Need.</description>
+    </item>
+    <item>
+      <title>Small Shop CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/small-shop-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/small-shop-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Small Shop.</description>
+    </item>
+    <item>
+      <title>Table Saw CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/table-saw-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/table-saw-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Table Saw.</description>
+    </item>
+    <item>
       <title>Can A Dust Collector Be Used As A Vacuum CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/dust-collector-index/can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/dust-collector-index/grizzly-g0860-15-hp-portable-cyclone-dust-collector-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/grizzly-g0860-15-hp-portable-cyclone-dust-collector-cfm-static-pressure-calculator.html</guid>
       <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (6.1" WG) for Grizzly G0860 1.5 HP Portable Cyclone Dust Collector.</description>
-    </item>
-    <item>
-      <title>Laguna P|Flux 3HP HEPA Cyclone Cabinet Shop Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/laguna-pflux-3hp-hepa-cyclone-cabinet-shop-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/laguna-pflux-3hp-hepa-cyclone-cabinet-shop-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (1400 net CFM / 2310 blower CFM), 8.0" duct velocity (4000 FPM), and static pressure loss (8.5" WG) for Laguna P|Flux 3HP HEPA Cyclone Cabinet Shop Collector.</description>
-    </item>
-    <item>
-      <title>Laguna B|Flux 1HP & C|Flux 1.5HP Cyclone Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/laguna-bflux-1hp-cflux-15hp-cyclone-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/laguna-bflux-1hp-cflux-15hp-cyclone-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (6.0" WG) for Laguna B|Flux 1HP & C|Flux 1.5HP Cyclone Collector.</description>
-    </item>
-    <item>
-      <title>Jet DC-1100VX-CK (1.5 HP) Vortex Cone Canister Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dc-1100vx-ck-15-hp-vortex-cone-canister-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dc-1100vx-ck-15-hp-vortex-cone-canister-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (5.5" WG) for Jet DC-1100VX-CK (1.5 HP) Vortex Cone Canister Collector.</description>
     </item>
   </channel>
 </rss>

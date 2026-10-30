@@ -361,5 +361,38 @@
     "hp": 1.5,
     "sp_wg": 5.2,
     "date": "2026-10-29"
+  },
+  {
+    "collector_name": "Table Saw",
+    "slug": "table-saw-cfm-static-pressure-calculator",
+    "title": "Table Saw CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Table Saw.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-30"
+  },
+  {
+    "collector_name": "Small Shop",
+    "slug": "small-shop-cfm-static-pressure-calculator",
+    "title": "Small Shop CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Small Shop.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-30"
+  },
+  {
+    "collector_name": "What  Dust Collector Do I Need",
+    "slug": "what-dust-collector-do-i-need-cfm-static-pressure-calculator",
+    "title": "What  Dust Collector Do I Need CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for What  Dust Collector Do I Need.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-30"
   }
 ]
