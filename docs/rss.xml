@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/dust-collector-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Jet Dust Collector Filter CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-filter-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-filter-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Filter.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Parts CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-parts-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-parts-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Parts.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Bags CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-bags-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-bags-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Bags.</description>
+    </item>
+    <item>
       <title>Jet Dust Collector Dc-650 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-650-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-650-cfm-static-pressure-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/dust-collector-index/supermax-19-38-16-32-open-end-drum-sander-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/supermax-19-38-16-32-open-end-drum-sander-cfm-static-pressure-calculator.html</guid>
       <description>Calculate exact dust collection airflow (390 net CFM / 640 blower CFM), 4.0" duct velocity (4500 FPM), and static pressure loss (6.4" WG) for SuperMax 19-38 & 16-32 Open-End Drum Sander.</description>
-    </item>
-    <item>
-      <title>Rikon 10-326 14-Inch Deluxe Bandsaw Dual-Port Setup CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/rikon-10-326-14-inch-deluxe-bandsaw-dual-port-setup-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/rikon-10-326-14-inch-deluxe-bandsaw-dual-port-setup-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Rikon 10-326 14-Inch Deluxe Bandsaw Dual-Port Setup.</description>
-    </item>
-    <item>
-      <title>Powermatic PM1300TX-CK (1.75 HP) TurboCone Canister CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/powermatic-pm1300tx-ck-175-hp-turbocone-canister-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/powermatic-pm1300tx-ck-175-hp-turbocone-canister-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (5.9" WG) for Powermatic PM1300TX-CK (1.75 HP) TurboCone Canister.</description>
-    </item>
-    <item>
-      <title>Oneida Dust Deputy 2.5 & Deluxe Cyclone Separator CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-25-deluxe-cyclone-separator-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-25-deluxe-cyclone-separator-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (140 net CFM / 230 blower CFM), 2.5" duct velocity (4200 FPM), and static pressure loss (3.8" WG) for Oneida Dust Deputy 2.5 & Deluxe Cyclone Separator.</description>
     </item>
   </channel>
 </rss>
