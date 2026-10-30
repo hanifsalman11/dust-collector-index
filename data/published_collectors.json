@@ -394,5 +394,38 @@
     "hp": 1.5,
     "sp_wg": 5.2,
     "date": "2026-10-30"
+  },
+  {
+    "collector_name": "What  Dust Collector",
+    "slug": "what-dust-collector-cfm-static-pressure-calculator",
+    "title": "What  Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for What  Dust Collector.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-30"
+  },
+  {
+    "collector_name": "Jet Dust Collector Dc-1100",
+    "slug": "jet-dust-collector-dc-1100-cfm-static-pressure-calculator",
+    "title": "Jet Dust Collector Dc-1100 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Jet Dust Collector Dc-1100.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-30"
+  },
+  {
+    "collector_name": "Jet Dust Collector Dc-650",
+    "slug": "jet-dust-collector-dc-650-cfm-static-pressure-calculator",
+    "title": "Jet Dust Collector Dc-650 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Jet Dust Collector Dc-650.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-30"
   }
 ]

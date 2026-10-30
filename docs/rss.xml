@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/dust-collector-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Jet Dust Collector Dc-650 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-650-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-650-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Dc-650.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Dc-1100 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-1100-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-1100-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Dc-1100.</description>
+    </item>
+    <item>
+      <title>What  Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/what-dust-collector-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/what-dust-collector-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for What  Dust Collector.</description>
+    </item>
+    <item>
       <title>What  Dust Collector Do I Need CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/dust-collector-index/what-dust-collector-do-i-need-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/what-dust-collector-do-i-need-cfm-static-pressure-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-25-deluxe-cyclone-separator-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-25-deluxe-cyclone-separator-cfm-static-pressure-calculator.html</guid>
       <description>Calculate exact dust collection airflow (140 net CFM / 230 blower CFM), 2.5" duct velocity (4200 FPM), and static pressure loss (3.8" WG) for Oneida Dust Deputy 2.5 & Deluxe Cyclone Separator.</description>
-    </item>
-    <item>
-      <title>Oneida Air Systems Supercell High-Pressure Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/oneida-air-systems-supercell-high-pressure-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/oneida-air-systems-supercell-high-pressure-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (390 net CFM / 640 blower CFM), 4.0" duct velocity (4500 FPM), and static pressure loss (12.5" WG) for Oneida Air Systems Supercell High-Pressure Collector.</description>
-    </item>
-    <item>
-      <title>Grizzly G0710 / G0861 2 HP Wall-Mount Cyclone Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/grizzly-g0710-g0861-2-hp-wall-mount-cyclone-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/grizzly-g0710-g0861-2-hp-wall-mount-cyclone-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (7.2" WG) for Grizzly G0710 / G0861 2 HP Wall-Mount Cyclone Collector.</description>
-    </item>
-    <item>
-      <title>Grizzly G0860 1.5 HP Portable Cyclone Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/grizzly-g0860-15-hp-portable-cyclone-dust-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/grizzly-g0860-15-hp-portable-cyclone-dust-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (790 net CFM / 1300 blower CFM), 6.0" duct velocity (4000 FPM), and static pressure loss (6.1" WG) for Grizzly G0860 1.5 HP Portable Cyclone Dust Collector.</description>
     </item>
   </channel>
 </rss>
