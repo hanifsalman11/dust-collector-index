@@ -493,5 +493,38 @@
     "hp": 1.5,
     "sp_wg": 5.2,
     "date": "2026-10-31"
+  },
+  {
+    "collector_name": "Jet Dust Collector Remote",
+    "slug": "jet-dust-collector-remote-cfm-static-pressure-calculator",
+    "title": "Jet Dust Collector Remote CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Jet Dust Collector Remote.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-31"
+  },
+  {
+    "collector_name": "Jet Dust Collector Dc-1200",
+    "slug": "jet-dust-collector-dc-1200-cfm-static-pressure-calculator",
+    "title": "Jet Dust Collector Dc-1200 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Jet Dust Collector Dc-1200.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-31"
+  },
+  {
+    "collector_name": "Oneida Dust Deputy 2.5",
+    "slug": "oneida-dust-deputy-25-cfm-static-pressure-calculator",
+    "title": "Oneida Dust Deputy 2.5 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Oneida Dust Deputy 2.5.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-10-31"
   }
 ]

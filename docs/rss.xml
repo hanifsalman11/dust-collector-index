@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/dust-collector-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Oneida Dust Deputy 2.5 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-25-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-25-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Oneida Dust Deputy 2.5.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Dc-1200 CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-1200-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-1200-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Dc-1200.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Remote CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-remote-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-remote-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Remote.</description>
+    </item>
+    <item>
       <title>Jet Dust Collector Remote Control CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-remote-control-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-remote-control-cfm-static-pressure-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/dust-collector-index/wen-dc1300-1300-cfm-3410-ambient-air-cleaner-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/wen-dc1300-1300-cfm-3410-ambient-air-cleaner-cfm-static-pressure-calculator.html</guid>
       <description>Calculate exact dust collection airflow (750 net CFM / 1240 blower CFM), 6.0" duct velocity (3800 FPM), and static pressure loss (4.9" WG) for WEN DC1300 (1,300 CFM) & 3410 Ambient Air Cleaner.</description>
-    </item>
-    <item>
-      <title>12-Inch Sliding Compound Miter Saw Dust Hood CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/12-inch-sliding-compound-miter-saw-dust-hood-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/12-inch-sliding-compound-miter-saw-dust-hood-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (330 net CFM / 540 blower CFM), 4.0" duct velocity (3800 FPM), and static pressure loss (4.8" WG) for 12-Inch Sliding Compound Miter Saw Dust Hood.</description>
-    </item>
-    <item>
-      <title>4x4 & 4x8 CNC Router Table Dust Boot (4-Inch Hose) CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/4x4-4x8-cnc-router-table-dust-boot-4-inch-hose-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/4x4-4x8-cnc-router-table-dust-boot-4-inch-hose-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (370 net CFM / 610 blower CFM), 4.0" duct velocity (4200 FPM), and static pressure loss (5.4" WG) for 4x4 & 4x8 CNC Router Table Dust Boot (4-Inch Hose).</description>
-    </item>
-    <item>
-      <title>3HP Spindle Shaper & Router Table Dual-Port Extraction CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/3hp-spindle-shaper-router-table-dual-port-extraction-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/3hp-spindle-shaper-router-table-dual-port-extraction-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (550 net CFM / 910 blower CFM), 5.0" duct velocity (4000 FPM), and static pressure loss (5.6" WG) for 3HP Spindle Shaper & Router Table Dual-Port Extraction.</description>
     </item>
   </channel>
 </rss>
