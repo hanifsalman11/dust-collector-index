@@ -5,6 +5,7 @@ import time
 import math
 import urllib.request
 import urllib.parse
+import urllib.error  # [PEDOMAN LANGKAH 1] wajib untuk menangkap HTTPError 429
 from datetime import datetime, timezone
 
 # ==========================================
@@ -214,6 +215,59 @@ def build_deterministic_dust_data(dust_tuple):
     }
 
 
+# [PEDOMAN LANGKAH 2] Fungsi pencari model otomatis (versi baru + caching + skoring tier)
+_CACHED_MODELS = None
+
+def get_active_gemini_model(api_key):
+    """Mendeteksi model Gemini Flash STABIL terbaru secara otomatis & menyimpannya di cache."""
+    global _CACHED_MODELS
+    if _CACHED_MODELS is not None:
+        return _CACHED_MODELS
+
+    list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={api_key}"
+    try:
+        req = urllib.request.Request(list_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+            scored_models = []
+
+            for m in data.get("models", []):
+                name = m.get("name", "").replace("models/", "")
+                methods = m.get("supportedGenerationMethods", [])
+
+                if "generateContent" not in methods or "flash" not in name.lower():
+                    continue
+
+                if any(bad in name.lower() for bad in [
+                    "preview", "exp", "thinking", "image", "tts", "audio", "vision", "8b"
+                ]):
+                    continue
+
+                ver_match = re.search(r"gemini-(\d+(?:\.\d+)?)-flash", name.lower())
+                if ver_match:
+                    ver_num = float(ver_match.group(1))
+                    if name.lower() == f"gemini-{ver_match.group(1)}-flash":
+                        tier_score = 2
+                    elif name.lower() == f"gemini-{ver_match.group(1)}-flash-lite":
+                        tier_score = 1
+                    else:
+                        tier_score = 0
+                    scored_models.append((ver_num, tier_score, name))
+                elif name.lower() == "gemini-flash-latest":
+                    scored_models.append((0.1, 0, name))
+
+            if scored_models:
+                scored_models.sort(key=lambda x: (x[0], x[1]), reverse=True)
+                _CACHED_MODELS = [item[2] for item in scored_models[:2]]
+                print(f"[GEMINI] Future-proof active models locked: {_CACHED_MODELS}")
+                return _CACHED_MODELS
+    except Exception as e:
+        print(f"[WARN] Dynamic model discovery notice: {e}")
+
+    _CACHED_MODELS = ["gemini-flash-latest"]
+    return _CACHED_MODELS
+
+
 def generate_dust_data(dust_tuple):
     if not GEMINI_API_KEY:
         return build_deterministic_dust_data(dust_tuple)
@@ -287,32 +341,43 @@ Return ONLY a valid JSON object matching this exact schema:
 }}
 """
 
-    for model_id in ["gemini-2.5-flash", "gemini-2.0-flash"]:
-        try:
-            endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
-            payload = {
-                "contents": [{"parts": [{"text": prompt}]}],
-                "generationConfig": {
-                    "temperature": 0.2,
-                    "responseMimeType": "application/json"
+    # [PEDOMAN LANGKAH 3] Blok pemanggilan API baru dengan retry 429 + auto model discovery
+    for model_id in get_active_gemini_model(GEMINI_API_KEY):
+        for attempt in range(2):
+            try:
+                endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model_id}:generateContent?key={GEMINI_API_KEY}"
+                payload = {
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "temperature": 0.2,
+                        "responseMimeType": "application/json"
+                    }
                 }
-            }
-            req = urllib.request.Request(
-                endpoint,
-                data=json.dumps(payload).encode("utf-8"),
-                headers={"Content-Type": "application/json"},
-                method="POST"
-            )
-            with urllib.request.urlopen(req, timeout=35) as resp:
-                result = json.loads(resp.read().decode("utf-8"))
-                raw_text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
-                raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
-                raw_text = re.sub(r"\s*```$", "", raw_text)
-                parsed = json.loads(raw_text)
-                if "specs" in parsed and "hardware_bundle" in parsed:
-                    return parsed
-        except Exception as e:
-            print(f"[WARN] Gemini ({model_id}) notice for '{model_name}': {e}")
+                req = urllib.request.Request(
+                    endpoint,
+                    data=json.dumps(payload).encode("utf-8"),
+                    headers={"Content-Type": "application/json"},
+                    method="POST"
+                )
+                with urllib.request.urlopen(req, timeout=40) as resp:
+                    result = json.loads(resp.read().decode("utf-8"))
+                    raw_text = result["candidates"][0]["content"]["parts"][0]["text"].strip()
+                    raw_text = re.sub(r"^```(?:json)?\s*", "", raw_text)
+                    raw_text = re.sub(r"\s*```$", "", raw_text)
+                    parsed = json.loads(raw_text)
+                    if "specs" in parsed and "hardware_bundle" in parsed:
+                        time.sleep(6)
+                        return parsed
+            except urllib.error.HTTPError as he:
+                if he.code == 429:
+                    print(f"[RATE-LIMIT] HTTP 429 on {model_id} (attempt {attempt + 1}). Cooling down 20s...")
+                    time.sleep(20)
+                else:
+                    print(f"[WARN] HTTP {he.code} on {model_id}: {he}")
+                    break
+            except Exception as e:
+                print(f"[WARN] Gemini ({model_id}) notice: {e}")
+                break
 
     return det_fallback
 
@@ -441,7 +506,8 @@ def build_dust_html_page(data, slug, mon_cfg):
       <div class="flex flex-wrap items-center gap-2.5 mb-3">
         <span class="text-xs font-extrabold uppercase tracking-widest bg-amber-500 text-zinc-950 px-3 py-1 rounded-full">{dia_in}" Duct ({net_cfm} Net CFM)</span>
         <span class="text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-3 py-1 rounded-full">{fpm:,} FPM | Static Loss: {sp_wg}" WG</span>
-        <span class="text-xs font-semibold bg-zinc-800 text-zinc-300 px-3 py-1 rounded-full">{rec_hp} HP ({rated_blower_cfm(net_cfm):,}+ Blower CFM) | {volt_s}</span>
+        <!-- [FIX BUG TEMPLATE] pakai blower_cfm (dari sp) agar angka blower CFM konsisten & tidak memanggil fungsi yang dipakai di luar konteks -->
+        <span class="text-xs font-semibold bg-zinc-800 text-zinc-300 px-3 py-1 rounded-full">{rec_hp} HP ({blower_cfm:,}+ Blower CFM) | {volt_s}</span>
       </div>
       <h1 class="text-3xl sm:text-4xl font-black text-white leading-tight">{data.get('seo_title', coll_name)}</h1>
       <div class="mt-4 bg-zinc-900 border-l-4 border-amber-500 p-4 rounded-r-xl text-sm text-zinc-200 leading-relaxed">
@@ -853,7 +919,8 @@ def main():
             if SITE_BASE_URL:
                 new_urls.append(f"{SITE_BASE_URL}/{slug}.html")
             count += 1
-            time.sleep(2)
+            # [PEDOMAN LANGKAH 4] Sleep 15 detik untuk menghindari 429 rate-limit di free tier
+            time.sleep(15)
         except Exception as e:
             print(f"[ERROR] Failed building {c_name}: {e}")
 
