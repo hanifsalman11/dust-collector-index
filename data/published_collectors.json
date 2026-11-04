@@ -625,5 +625,38 @@
     "hp": 2.0,
     "sp_wg": 6.2,
     "date": "2026-11-01"
+  },
+  {
+    "collector_name": "Jet Dust Collector Accessories",
+    "slug": "jet-dust-collector-accessories-cfm-static-pressure-calculator",
+    "title": "Jet Dust Collector Accessories CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Jet Dust Collector Accessories.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-11-04"
+  },
+  {
+    "collector_name": "Oneida Dust Deputy Vs Low-Pro",
+    "slug": "oneida-dust-deputy-vs-low-pro-cfm-static-pressure-calculator",
+    "title": "Oneida Dust Deputy Vs Low-Pro CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Oneida Dust Deputy Vs Low-Pro.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-11-04"
+  },
+  {
+    "collector_name": "Oneida Dust Deputy",
+    "slug": "oneida-dust-deputy-cfm-static-pressure-calculator",
+    "title": "Oneida Dust Deputy CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)",
+    "description": "Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0\" duct velocity (4000 FPM), and static pressure loss (5.2\" WG) for Oneida Dust Deputy.",
+    "duct_in": 4.0,
+    "net_cfm": 350,
+    "hp": 1.5,
+    "sp_wg": 5.2,
+    "date": "2026-11-04"
   }
 ]
