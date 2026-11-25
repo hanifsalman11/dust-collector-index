@@ -7,6 +7,24 @@
     <atom:link href="https://hanifsalman11.github.io/dust-collector-index/rss.xml" rel="self" type="application/rss+xml" />
     <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" />
     <item>
+      <title>Jet Dust Collector Setup CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-setup-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-setup-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Setup.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Canister Filter CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-canister-filter-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-canister-filter-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collector working CFM, duct FPM velocity, static pressure loss (in. WG), and cyclone/canister sizing for Jet Dust Collector Canister Filter.</description>
+    </item>
+    <item>
+      <title>Jet Dust Collector Dc-1100C CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
+      <link>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-1100c-cfm-static-pressure-calculator.html</link>
+      <guid>https://hanifsalman11.github.io/dust-collector-index/jet-dust-collector-dc-1100c-cfm-static-pressure-calculator.html</guid>
+      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Jet Dust Collector Dc-1100C.</description>
+    </item>
+    <item>
       <title>Oneida Dust Deputy CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
       <link>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/oneida-dust-deputy-cfm-static-pressure-calculator.html</guid>
@@ -167,24 +185,6 @@
       <link>https://hanifsalman11.github.io/dust-collector-index/table-saw-cfm-static-pressure-calculator.html</link>
       <guid>https://hanifsalman11.github.io/dust-collector-index/table-saw-cfm-static-pressure-calculator.html</guid>
       <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Table Saw.</description>
-    </item>
-    <item>
-      <title>Can A Dust Collector Be Used As A Vacuum CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/can-a-dust-collector-be-used-as-a-vacuum-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Can A Dust Collector Be Used As A Vacuum.</description>
-    </item>
-    <item>
-      <title>Fan  Calculation Formula CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/fan-calculation-formula-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/fan-calculation-formula-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Fan  Calculation Formula.</description>
-    </item>
-    <item>
-      <title>Dust Collector CFM, Duct Velocity (FPM) & Static Pressure Calculator (2026)</title>
-      <link>https://hanifsalman11.github.io/dust-collector-index/dust-collector-cfm-static-pressure-calculator.html</link>
-      <guid>https://hanifsalman11.github.io/dust-collector-index/dust-collector-cfm-static-pressure-calculator.html</guid>
-      <description>Calculate exact dust collection airflow (350 net CFM / 580 blower CFM), 4.0" duct velocity (4000 FPM), and static pressure loss (5.2" WG) for Dust Collector.</description>
     </item>
   </channel>
 </rss>
